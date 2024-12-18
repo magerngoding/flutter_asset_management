@@ -1,0 +1,27 @@
+name: flutter_asset_management
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  d_info: ^0.2.2
+  d_input: ^0.5.1
+  d_method: ^0.2.6
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
