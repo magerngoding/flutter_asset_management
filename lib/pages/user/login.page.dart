@@ -23,13 +23,10 @@ class LoginPage extends StatelessWidget {
       Uri url = Uri.parse(
         '${AppConstant.baseUrl}/user/login.php',
       );
-      http.post(
-        url,
-        body: {
-          'username': edtUsername.text,
-          'password': edtPassword.text,
-        },
-      ).then(
+      http.post(url, body: {
+        'username': edtUsername.text,
+        'password': edtPassword.text,
+      }).then(
         (response) {
           // package dmethod auto kelar coy
           DMethod.printResponse(response);
